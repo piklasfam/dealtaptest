@@ -42,7 +42,7 @@
 
 <p>To do it I prepared the requirement for the class, it should contain:</p>
 <ol><li> a property <code>serial number</code> (which have to be a prime number less then 10000)</li> 
-    <li>a method to generate these serial numbers <li>
+    <li>a method to generate these serial numbers </li>
     <li>a method to write results into file. </li>
 </ol>
 
