@@ -38,10 +38,8 @@
     </li>
 </ul>
 <h3 id = 'backend'>Backend</h3>
-<p>The were 2 major architectural decision on this project: </p>
-<ul><li> decide if base class should be abstract</li>
-    <li> decide on "creational" design pattern </li>
-</ul>
+<p>There were major architectural decision on this project: decide if base class should be abstract.</p>
+
 <p>To do it I prepared the requirement for the class, it should contain:</p>
 <ol><li> a property <code>serial number</code> (which have to be a prime number less then 10000)</li> 
     <li>a method to generate these serial numbers <li>
@@ -51,7 +49,9 @@
 <p>Since the child classes of the base class are supposed to use these methods in the same way and have the same property, 
    I decided NOT to make animal class abstract, because 
    a)I do not need different methods for child classes right now, and I do not want to implement the same code twice. 
-   b) if I will need other functionality for these methods I can override it.</p>
+   b) if I will need other functionality for these methods I can override it.
+   c) Additional unlimited number of child classes can be added later, each one can be created with different number of serial numbers
+   and different limits, so the structure is flexible enough, although cannot be called classical "factory". </p>
 <p>The base class has 3 methods : </p>
 <ul><li>public SetSerialNumbers($min, $max, $count) - receive $min - integer min limit to start generating numbers, 
         $max - integer, max limit and $count - how many numbers to generate, by providing these input parameters I am 
