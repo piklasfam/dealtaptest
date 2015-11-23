@@ -1,0 +1,122 @@
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background: url('../images/shaun-the-sheep-7.jpg') no-repeat center center fixed;
+  padding-top: 50px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body .container {
+  margin-top: 20px;
+}
+body .container .container-fluid {
+  opacity: 0.9;
+}
+body .container .container-fluid .panel-heading {
+  position: relative;
+}
+body .container .container-fluid .panel-heading .btn {
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
+}
+body .container .container-fluid .row {
+  padding: 15px;
+}
+body .container .container-fluid .no-margin {
+  margin: 0;
+}
+body .container .container-fluid .size-h1 {
+  font-size: 33px;
+}
+body .container .container-fluid .size-h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+body .container .container-fluid .size-h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+body .container .container-fluid .table {
+  text-align: center;
+}
+body .container .container-fluid .table th {
+  text-align: center;
+}
+body .content-wrapper {
+  padding: 15px;
+}
+.panel {
+  margin-bottom: 18px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-box {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: none;
+}
+.panel-box .panel-top {
+  padding: 30px 20px;
+  -moz-border-radius-topleft: 4px;
+  -webkit-border-top-left-radius: 4px;
+  border-top-left-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  -webkit-border-top-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.panel-box .panel-top .divider {
+  display: block;
+  height: 10px;
+}
+.panel-box .list-justified-container ul.list-justified {
+  display: table;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+.panel-box .list-justified-container ul.list-justified > li {
+  float: none;
+  display: table-cell;
+  padding: 10px;
+  width: 1%;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+}
+.panel-box .bg-blue {
+  background-color: #335397;
+  color: #fff;
+}
+.panel-box .bg-green {
+  background-color: #A3C86D;
+  color: #fff;
+}
+.panel-box .bg-reverse {
+  background-color: #fff;
+  color: #767676;
+}
+.panel-box .bg-yellow {
+  background-color: #FDD761;
+  color: #fff;
+}
+.panel-box .bg-light-blue {
+  background-color: #7ACBEE;
+  color: #fff;
+}
+.panel-box .bg-red {
+  background-color: #FF7857;
+  color: #fff;
+}
+.panel-box .text-muted {
+  color: #777;
+}

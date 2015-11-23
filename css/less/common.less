@@ -1,0 +1,60 @@
+@import 'variables.less';
+
+html {
+	
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+        background: url('@{path-to-images}/shaun-the-sheep-7.jpg') no-repeat center center fixed; 
+        padding-top: 50px;       
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+        .container {
+                margin-top: 20px;
+                .container-fluid {
+                        opacity: 0.9; 
+                        
+                        .panel-heading{
+                                position: relative;
+                                .btn {
+                                        position: absolute;
+                                        right: 20px;
+                                        bottom: 25px;
+                                }
+                        }
+                        .row {
+                            padding: 15px;
+                        }
+                        
+                        .no-margin {
+                                margin: 0;
+                        }
+                        .size-h1 {
+                                font-size: 33px;
+                        }
+                        .size-h2 {
+                                font-size: 28px;
+                                font-weight: bold
+                        }
+                        .size-h3 {
+                                font-size: 20px;
+                                font-weight: bold
+                        }
+                        .table {
+                                text-align: center;
+                                th {
+                                        text-align: center;
+                                }
+                        }
+                }               
+        }
+
+        .content-wrapper {
+                padding: 15px;
+        }
+
+}

@@ -1,0 +1,80 @@
+@import 'variables.less';
+
+.panel {
+        margin-bottom: 18px;
+        background-color: #fff;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+        box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+
+.panel-box {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        border: none;
+        .panel-top {
+                padding: 30px 20px;
+                -moz-border-radius-topleft: 4px;
+                -webkit-border-top-left-radius: 4px;
+                border-top-left-radius: 4px;
+                -moz-border-radius-topright: 4px;
+                -webkit-border-top-right-radius: 4px;
+                border-top-right-radius: 4px;
+                .divider {
+                        display: block;
+                        height: 10px;
+                }
+        }
+        .list-justified-container {
+                //padding: 15px 0;
+                ul.list-justified {
+                        display: table;
+                        width: 100%;
+                        list-style: none;
+                        padding: 0;
+                        >li {
+                                float: none;
+                                display: table-cell;
+                                padding: 10px;
+                                width: 1%;
+                                border-right: 1px solid #eee;
+                                border-left: 1px solid #eee;
+                        }
+                }
+        }
+       
+        .bg-blue {
+                background-color: @blue;
+                color: #fff;
+        }
+        .bg-green {
+                background-color: @green;
+                color: #fff;
+        }
+        .bg-reverse {
+                background-color: #fff;
+                color: @grey;
+        }
+        .bg-yellow {
+                background-color: @yellow;
+                color: #fff;
+        }
+        
+        .bg-light-blue {
+                background-color: @light-blue;
+                color: #fff;
+        }
+        
+        .bg-red {
+                background-color: @red;
+                color: #fff;
+        }
+        .text-muted {
+                color: #777;
+        }
+
+}
