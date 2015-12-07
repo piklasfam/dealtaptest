@@ -7,7 +7,7 @@
                         </tr>
                 </thead>
                 <tbody>
-                        <tr ng-repeat = "goat in animals.goat">
+                        <tr ng-repeat = "goat in ::animals.goat">
                                 <td>{{goat}}</td>
                                 <td>{{animals.sheep[$index]}}</td>
                         </tr>
@@ -22,7 +22,7 @@
                         </tr>
                 </thead>
                 <tbody>
-                        <tr ng-repeat = "item in animals.soulmates">
+                        <tr ng-repeat = "item in ::animals.soulmates">
                                 <td>{{item}}</td>
                         </tr>
                 </tbody>
